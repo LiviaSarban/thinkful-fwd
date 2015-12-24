@@ -1,0 +1,181 @@
+/*************************************************************************
+HEADER
+**************************************************************************/
+
+.masthead {
+	border-top: solid 0.5em #DC143C;
+	border-bottom: solid 0.125em #C0C0C0;
+	margin: 0 auto;
+	padding: 0 0 20% 0;
+	vertical-align: middle;
+	background-image: url("../images/desk.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	background-position:center;
+}
+
+.masthead h1 {
+	margin: 5% 0 1.5% 12.5%;
+	padding-bottom: 10%;
+
+}
+
+/*************************************************************************
+BODY
+**************************************************************************/
+
+.introduction, .location, .goals, .hobbies, .movies-music {
+	max-width: 75%;
+	margin: 5% auto 0 auto;
+}
+
+/* Positions the photo and the introduction section next to one another */
+
+.first-half {
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+}
+
+.second-half {
+	width: 60%;
+	float: left;
+}
+
+.location {
+	clear: both;
+	margin-top: 5%;
+	padding-top: 1%;
+}
+
+.map {
+        position: relative;
+        padding-bottom: 75%;
+        height: 0;
+        overflow: hidden;
+        max-width: 600px;
+        max-height: 450px;
+    }
+
+.map iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+/*************************************************************************
+FOOTER
+**************************************************************************/
+
+footer {
+	margin: 10% auto 0 auto;
+	padding: 2.5% 0 1% 0;
+	background-color: #DC143C;
+	text-align: center;
+}
+
+.social li {
+	display: inline-block;
+}
+
+.top {
+	padding-top: 2.5%;
+}
+
+/*************************************************************************
+IMAGES
+**************************************************************************/
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.introduction img {
+	border-radius: 50%;
+	border: 0.25em solid #C0C0C0;
+	  /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+  	-webkit-border-radius: 50%; 
+
+  	/* Firefox 1-3.6 */
+  	-moz-border-radius: 50%; 
+  
+	/* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+  	border-radius: 50%; 
+}
+
+/*************************************************************************
+TYPOGRAPHY
+**************************************************************************/
+
+/* General Typography */
+
+body {
+    font-size: 1.125em;
+    font-family: 'Quattrocento', serif;
+   	line-height: 1.4em;
+	color: #454A4D;
+	word-wrap: break-word;
+}
+
+strong {
+	font-size: 1.2em;
+}
+
+footer {
+	color: #FFFFFF;
+}
+
+/* Link Styling */
+
+a:link, a:visited, strong a:link {
+	color: #454A4D;
+	text-decoration: none;
+}
+
+a:hover, a:active, strong a:visited {
+	color: #20ACE6;
+	text-decoration: underline;
+}
+
+footer a:link, footer a:active, footer a:hover, footer a:visited {
+	color: #FFFFFF;
+}
+
+.top {
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* Headings */
+
+h1, h2, h3 {
+	font-family: 'Oswald', sans-serif;
+	color: #DC143C;
+}
+
+
+h1 {
+	font-size: 2.827em;
+}
+
+h2 {
+	font-size: 1.999em;
+}
+
+h3 {
+	font-size: 1.414em;
+}
+
+/* Page Title */
+
+.masthead h1 {
+	font-size: 3.998em;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px #FFFFFF;
+}
